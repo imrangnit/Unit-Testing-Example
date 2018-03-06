@@ -18,6 +18,8 @@
 		9B422F4E203C3C1A004D8A45 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B422F4D203C3C1A004D8A45 /* CoreDataManager.swift */; };
 		9B53D41C203D5ACE00F429AD /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53D41B203D5ACE00F429AD /* NewViewController.swift */; };
 		9B53D41E203D856300F429AD /* NewArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53D41D203D856300F429AD /* NewArticle.swift */; };
+		9B70512A204D679E00A6CBE9 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B705129204D679E00A6CBE9 /* Utility.swift */; };
+		9B70512C204D67C000A6CBE9 /* UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70512B204D67C000A6CBE9 /* UtilityTests.swift */; };
 		9BBBBD24203FEBE100683492 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBBBD23203FEBE100683492 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		9B422F4D203C3C1A004D8A45 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		9B53D41B203D5ACE00F429AD /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		9B53D41D203D856300F429AD /* NewArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArticle.swift; sourceTree = "<group>"; };
+		9B705129204D679E00A6CBE9 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		9B70512B204D67C000A6CBE9 /* UtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityTests.swift; sourceTree = "<group>"; };
 		9BBBBD23203FEBE100683492 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +104,7 @@
 				9B422F4D203C3C1A004D8A45 /* CoreDataManager.swift */,
 				9B53D41B203D5ACE00F429AD /* NewViewController.swift */,
 				9BBBBD23203FEBE100683492 /* ArticleTableViewCell.swift */,
+				9B705129204D679E00A6CBE9 /* Utility.swift */,
 			);
 			path = "CoreData with Multiple Relation Ships";
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 		9B422F3F203C35CA004D8A45 /* CoreData with Multiple Relation ShipsTests */ = {
 			isa = PBXGroup;
 			children = (
+				9B70512B204D67C000A6CBE9 /* UtilityTests.swift */,
 				9B422F40203C35CA004D8A45 /* CoreData_with_Multiple_Relation_ShipsTests.swift */,
 				9B422F42203C35CA004D8A45 /* Info.plist */,
 				9B53D41D203D856300F429AD /* NewArticle.swift */,
@@ -218,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B70512A204D679E00A6CBE9 /* Utility.swift in Sources */,
 				9B422F2B203C35CA004D8A45 /* ViewController.swift in Sources */,
 				9B422F29203C35CA004D8A45 /* AppDelegate.swift in Sources */,
 				9B53D41C203D5ACE00F429AD /* NewViewController.swift in Sources */,
@@ -231,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B70512C204D67C000A6CBE9 /* UtilityTests.swift in Sources */,
 				9B422F41203C35CA004D8A45 /* CoreData_with_Multiple_Relation_ShipsTests.swift in Sources */,
 				9B53D41E203D856300F429AD /* NewArticle.swift in Sources */,
 			);
